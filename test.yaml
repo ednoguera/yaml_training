@@ -1,0 +1,14 @@
+version:
+  software:
+    version: 0.1.1
+    file: "test.yaml"
+    name: "yaml-training.com"
+    author: "Edson Silva"
+    license: "MIT"
+
+base-config:
+  connection:
+    port: 8080
+    baseUrlLocal: "127.0.0.1:"
+    baseUrlStage: "yaml-training-stage.com/"
+    baseUrlProd: "yaml-training.com/"
